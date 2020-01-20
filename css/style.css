@@ -18,7 +18,7 @@ header {
 .wrapper {
   width: 80%;
   margin: auto;
-  height: 700px,
+  height: 1700px,
 }
 
 a {
@@ -55,13 +55,11 @@ img {
 .flex_item_1 {
   width: 35%;
   height: 80px;
-  /* background-color: red; */
   padding: 10px;
 }
 .flex_item_2 {
   width: 65%;
   height: 80px;
-  /* background-color: green; */
   padding: 10px;
 }
 
@@ -85,11 +83,6 @@ img {
   color: white;
 }
 
-#btn:hover {
-  transition: .5s;
-  background-color:
-}
-
 #arrow {
   font-size: .8em;
   margin-left: 5px;
@@ -100,7 +93,6 @@ img {
   top: 60px;
   right: -20px;
   flex-direction: column;
-  /* border: 1px solid black; */
   width: 135px;
   text-align: left;
   padding: 10px;
@@ -108,12 +100,12 @@ img {
   box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
   color: #858285;
   display: none;
-  /* display: flex; */
 }
 
 .dropdown li,
 .dropdown_product li,
-.dropdown_company li {
+.dropdown_company li,
+.dropdown_help li {
   line-height: 50px;
 }
 
@@ -121,7 +113,6 @@ img {
   position: absolute;
   flex-direction: column;
   display: none;
-  /* border: 1px solid black; */
   width: 300px;
   right: -100px;
   text-align: left;
@@ -132,7 +123,8 @@ img {
 
 .dropdown.active,
 .dropdown_product.active,
-.dropdown_company.active {
+.dropdown_company.active,
+.dropdown_help.active {
   display: flex;
 }
 
@@ -140,7 +132,6 @@ img {
   position: absolute;
   flex-direction: column;
   display: none;
-  /* border: 1px solid black; */
   width: 180px;
   right: -50px;
   text-align: left;
@@ -148,5 +139,19 @@ img {
   color: #858285;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
 }
+
+.dropdown_help {
+  display: none;
+  flex-direction: column;
+  color: #858285;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+  position: absolute;
+  text-align: left;
+  right: -70px;
+  width: 200px;
+  padding-left: 25px;
+
+}
+
 
 /* da mettere i dropdown in una classe unica */
