@@ -88,6 +88,12 @@ img {
   margin-left: 5px;
 }
 
+a:hover #arrow {
+  display: inline-block;
+  transform: rotate(180deg);
+  transition: .4s;
+}
+
 .dropdown {
   position: absolute;
   top: 60px;
@@ -150,7 +156,6 @@ img {
   right: -70px;
   width: 200px;
   padding-left: 25px;
-
 }
 
 
