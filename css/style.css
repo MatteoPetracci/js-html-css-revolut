@@ -85,6 +85,11 @@ img {
   color: white;
 }
 
+#btn:hover {
+  transition: .5s;
+  background-color:
+}
+
 #arrow {
   font-size: .8em;
   margin-left: 5px;
@@ -107,12 +112,9 @@ img {
 }
 
 .dropdown li,
-.dropdown_product li {
+.dropdown_product li,
+.dropdown_company li {
   line-height: 50px;
-}
-
-.dropdown.active {
-  display: flex;
 }
 
 .dropdown_product {
@@ -128,6 +130,23 @@ img {
   box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
 }
 
-.dropdown_product.active {
+.dropdown.active,
+.dropdown_product.active,
+.dropdown_company.active {
   display: flex;
 }
+
+.dropdown_company {
+  position: absolute;
+  flex-direction: column;
+  display: none;
+  /* border: 1px solid black; */
+  width: 180px;
+  right: -50px;
+  text-align: left;
+  padding: 0 30px;
+  color: #858285;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+}
+
+/* da mettere i dropdown in una classe unica */
