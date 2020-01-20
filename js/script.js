@@ -6,6 +6,7 @@ $(document).ready(
         $(this).next('.dropdown_product').toggleClass('active');
         $(this).next('.dropdown_company').toggleClass('active');
         $(this).next('.dropdown_help').toggleClass('active');
+        $(this).next('.dropdown_it').toggleClass('active');  
       }
     );
   }
