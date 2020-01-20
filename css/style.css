@@ -106,10 +106,28 @@ img {
   /* display: flex; */
 }
 
-.dropdown li {
+.dropdown li,
+.dropdown_product li {
   line-height: 50px;
 }
 
 .dropdown.active {
+  display: flex;
+}
+
+.dropdown_product {
+  position: absolute;
+  flex-direction: column;
+  display: none;
+  /* border: 1px solid black; */
+  width: 300px;
+  right: -100px;
+  text-align: left;
+  padding-left: 25px;
+  color: #858285;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+}
+
+.dropdown_product.active {
   display: flex;
 }
