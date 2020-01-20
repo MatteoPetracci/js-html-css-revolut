@@ -111,6 +111,10 @@ a:hover #arrow {
   line-height: 50px;
 }
 
+.flex_item_2 ul li:hover a {
+  color: black;
+}
+
 .dropdown_product {
   width: 300px;
   right: -100px;
