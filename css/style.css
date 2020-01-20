@@ -94,7 +94,6 @@ img {
   position: absolute;
   top: 60px;
   right: -20px;
-  display: flex;
   flex-direction: column;
   /* border: 1px solid black; */
   width: 135px;
@@ -103,8 +102,14 @@ img {
   padding-left: 30px;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
   color: #858285;
+  display: none;
+  /* display: flex; */
 }
 
 .dropdown li {
   line-height: 50px;
+}
+
+.dropdown.active {
+  display: flex;
 }
