@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
 header {
@@ -17,11 +18,11 @@ header {
 .wrapper {
   width: 80%;
   margin: auto;
+  height: 700px,
 }
 
 a {
   text-decoration: none;
-  /* color: black; */
 }
 
 .text_right {
@@ -32,10 +33,15 @@ a {
   color: darkgrey;
 }
 
+.black {
+  color: black;
+}
+
 .inline_block li {
   display: inline-block;
   line-height: 80px;
 }
+
 
 .flex_item_1 {
   width: 35%;
@@ -68,6 +74,11 @@ a {
   padding: 15px 25px;
   border-radius: 30px;
   color: white;
+}
+
+#arrow {
+  font-size: .8em;
+  margin-left: 5px;
 }
 
 
