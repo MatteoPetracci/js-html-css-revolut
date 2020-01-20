@@ -75,12 +75,16 @@ img {
 }
 
 #btn {
-  border: 2px solid #EB008D;
   background-color: #EB008D;
   height: 50px;
   padding: 15px 25px;
   border-radius: 30px;
   color: white;
+}
+
+#btn:hover {
+  background-color: rgb(210, 0, 126);
+  transition: .5s,
 }
 
 #arrow {
@@ -95,17 +99,8 @@ a:hover #arrow {
 }
 
 .dropdown {
-  position: absolute;
-  top: 60px;
   right: -20px;
-  flex-direction: column;
   width: 135px;
-  text-align: left;
-  padding: 10px;
-  padding-left: 30px;
-  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
-  color: #858285;
-  display: none;
 }
 
 .dropdown li,
@@ -117,15 +112,8 @@ a:hover #arrow {
 }
 
 .dropdown_product {
-  position: absolute;
-  flex-direction: column;
-  display: none;
   width: 300px;
   right: -100px;
-  text-align: left;
-  padding-left: 25px;
-  color: #858285;
-  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
 }
 
 .dropdown.active,
@@ -137,40 +125,27 @@ a:hover #arrow {
 }
 
 .dropdown_company {
-  position: absolute;
-  flex-direction: column;
-  display: none;
   width: 180px;
   right: -50px;
-  text-align: left;
-  padding: 0 30px;
-  color: #858285;
-  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+
 }
 
 .dropdown_help {
-  display: none;
-  flex-direction: column;
-  color: #858285;
-  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
-  position: absolute;
-  text-align: left;
   right: -70px;
   width: 200px;
-  padding-left: 25px;
 }
 
 .dropdown_it {
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  text-align: left;
-  color: #858285;
-  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
   width: 120px;
-  padding: 0 30px;
   right: -30px;
 }
 
-
-/* da mettere i dropdown in una classe unica */
+.dropdown_all {
+  position: absolute;
+  flex-direction: column;
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+  color: #858285;
+  text-align: left;
+  padding: 0 30px;
+}
